@@ -1,0 +1,89 @@
+*{
+    font-family: "Trebuchet MS";
+}
+html , body{
+    margin: 0;
+    padding:0;
+    height: 100%;
+}
+body::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: -1;
+  }
+::selection{
+    background-color : #75fff2;
+    color: #15423d;
+}
+body{
+    background-color: black;
+    background-image: url(img/road-new-york-city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgba(40, 40, 40, 0.53);
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 0 40px #fff0f042, 0 0 40px #00000080 inset;
+    border: 1px solid #0202025e;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 6px #000 ,0 0 9px rgb(117, 255, 242);
+    margin: 30px 0;
+}
+.input , .button{
+    text-align: left;
+    font-size: 25px;
+    color: #d5d5d5;
+    margin: 0 50px 30px 50px;
+}
+.input{
+    border-bottom: 1px solid #fff;
+}
+.input:hover .icon{
+    color:#75fff2;
+    text-shadow: 0 0 7px #75fff2;
+}
+input{
+    width: 85%;
+    outline: none;
+    font-size: 18px;
+    padding: 5px 5px 9px 5px;
+    color: #fff;
+    background-color: #0000;
+    border: none;
+}
+button{
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #75fff2;
+    color: #106c64;
+    border-radius: 50px;
+    width: 100%;
+    box-shadow: 0 0 3px #75fff2;
+    margin: 10px 0;
+}
+button:hover{
+    box-shadow: 0 0 7px #75fff2 , 0 0 6px #75fff2 , 0 0 20px #75fff2;
+}
+.margin_right{
+    margin-right: 10px;
+}
+    
+    
+    
+
+  
